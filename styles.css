@@ -4,22 +4,42 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 nav {
-    background-color: #FCC6BB;
-    margin-left: 250px;
-    margin-right: 250px;
+    background-color: transparent;
+    margin: auto;
     padding: 5px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     width: 500px;
     height: 25px;    
 }
 
+nav a {
+    background-color: lightpink;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:link {
+    color: purple;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
 .main {
     background-color: #FCC6BB;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin:auto;
     margin-top: 10px;
-    padding: 5px;
+    padding: 10px;
     text-align: justify;
+}
+
+p {
+    color: darkmagenta;
+}
+
+h1, h2 {
+    color: rgb(63, 3, 63);
 }
 
