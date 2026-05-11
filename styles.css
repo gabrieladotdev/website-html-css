@@ -36,6 +36,7 @@ nav a:hover {
 
 .main {
     background-color: #FCC6BB;
+    min-height: 350px;
     margin:auto;
     margin-top: 10px;
     padding: 15px;
@@ -58,4 +59,9 @@ h1 {
 
 h2 {
     font-size: 14px;
+}
+
+.footer p {
+    font-size: 10px;
+    color: blueviolet;
 }
